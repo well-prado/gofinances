@@ -2,13 +2,22 @@ import React from 'react';
 import { Platform } from 'react-native';
 import { MaterialIcons } from '@expo/vector-icons'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-
-const { Navigator, Screen } = createBottomTabNavigator();
+import { NativeStackScreenProps } from '@react-navigation/native-stack';
 
 import { Dashboard } from '../screens/Dashboard';
 import { Register } from '../screens/Register';
 import { Resume } from '../screens/Resume';
 import theme from '../global/styles/theme';
+
+// type AppTabParamList = {
+//   Listagem: undefined;
+//   Cadastrar: undefined;
+//   Resumo: undefined;
+// };
+
+// export type AppTabProps = NativeStackScreenProps<AppTabParamList, 'Listagem'>;
+
+const { Navigator, Screen } = createBottomTabNavigator();
 
 export function AppRoutes() {
   return (
