@@ -9,5 +9,5 @@ mixed with Async Storage for in app data.
 
 <p>
 &nbsp;
-<img src="https://i.ibb.co/KxCyVf4/Capa.png" height="650px" />   
+<img src="https://i.ibb.co/TM3Qt9h/img.png" height="650px" />   
 </p> 
